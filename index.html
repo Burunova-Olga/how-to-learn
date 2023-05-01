@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,11 @@
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
   <div class="page">
 
-    <header class="header grayFon">
+    <header class="header theme_gray">
       <img src="images/logo_place_header.svg" class="logo logo_place_header" alt="Яндекс Практикум">
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">
@@ -22,9 +24,8 @@
       <div class="header__square-pic"></div>
     </header>
 
-    <main class="content centered-block">
-
-      <section id="description" class="description">
+    <main class="content">
+      <section class="section description theme_white">
         <div class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
@@ -33,7 +34,7 @@
               Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания.
               Зубрежка быстро выветривается и не приносит пользы.
             </p>
-            <p class="two-columns__paragraph"><span class=" two-columns__paragraph span">Вывод</span>:
+            <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод</span>:
               учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?
             </p>
             <p class="two-columns__paragraph">
@@ -44,9 +45,9 @@
         </div>
       </section>
 
-      <section id="digits" class="digits">
-        <h2 class="digits__section-title">Цифры и факты</h2>
-        <h3 class="digits__section-subtitle">Про учёбу и мозг</h3>
+      <section class="section digits theme_white">
+        <h2 class="section-title">Цифры и факты</h2>
+        <h3 class="section-subtitle">Про учёбу и мозг</h3>
         <div class="table">
             <article class="table-cell">
               <h4 class="table-heading">86 миллиардов</h4>
@@ -91,14 +92,69 @@
             </article>
       </section>
 
-      <section id="feynman" class="feynman">
-        <h2 class="feynman__section-title">Метод Фейнмана</h2>
-        <h3 class="feynman__section-subtitle">Выучить и не забыть</h3>
-        <a href="#" class="feynman__link" alt="Тот самый Фейнман">Подробнее →</h3>
-
+      <section class="section feynman theme_gray">
+        <h2 class="section-title feynman__section-title">Метод Фейнмана</h2>
+        <h3 class="section-subtitle feynman__section-subtitle">Выучить и не забыть</h3>
+        <a href="#" class="feynman__link">Подробнее →</a>
       </section>
 
-      <section id="kaufman"></section>
+      <section class="section kaufman theme_dark">
+        <h2 class="section-title">Принципы обучения</h2>
+        <h3 class="section-subtitle">от Джоша Кауфмана</h3>
+        <div class="table">
+          <article class="table-cell kaufman_table-cell">
+            <h4 class="table-heading">1</h4>
+            <p class="table-text">Выберите привлекательный проект.</p>
+          </article>
+
+          <article class="table-cell kaufman_table-cell">
+            <h4 class="table-heading">2</h4>
+            <p class="table-text">Сосредоточьтесь на каком-то одном навыке.</p>
+          </article>
+
+          <article class="table-cell kaufman_table-cell">
+            <h4 class="table-heading">3</h4>
+            <p class="table-text">Определите целевой уровень мастерства.</p>
+          </article>
+
+          <article class="table-cell kaufman_table-cell">
+            <h4 class="table-heading">4</h4>
+            <p class="table-text">Разбейте навык на элементы.</p>
+          </article>
+
+          <article class="table-cell kaufman_table-cell">
+            <h4 class="table-heading">5</h4>
+            <p class="table-text">Приготовьте всё необходимое для занятий.</p>
+          </article>
+
+          <article class="table-cell kaufman_table-cell">
+            <h4 class="table-heading">6</h4>
+            <p class="table-text">Устраните препятствия для занятий.</p>
+          </article>
+
+          <article class="table-cell kaufman_table-cell">
+            <h4 class="table-heading">7</h4>
+            <p class="table-text">Выделите специальное время для занятий.</p>
+          </article>
+
+          <article class="table-cell kaufman_table-cell">
+            <h4 class="table-heading">8</h4>
+            <p class="table-text">Создайте быстрые петли обратной связи.</p>
+          </article>
+
+          <article class="table-cell kaufman_table-cell">
+            <h4 class="table-heading">9</h4>
+            <p class="table-text">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
+          </article>
+
+          <article class="table-cell kaufman_table-cell">
+            <h4 class="table-heading">10</h4>
+            <p class="table-text">Уделяйте внимание количеству и скорости.</p>
+          </article>
+        </div>
+
+        <div class="kaufman__triangle"></div>
+      </section>
     </main>
 
     <footer></footer>
