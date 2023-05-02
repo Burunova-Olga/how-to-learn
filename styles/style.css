@@ -1,3 +1,9 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
 .theme_dark
 {
   color: white;
@@ -31,11 +37,7 @@
 .section
 {
   width: 100vw;
-
   margin: 100px 0;
-  padding: 0;
-
-  border: 1px solid #1f1f1f;
 }
 
 /*******************************************************************/
@@ -43,13 +45,11 @@
 /*******************************************************************/
 .header
 {
+  width: 100vw;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
-
-  margin: 0;
-  padding: 0;
 
   display: flex;
   position: relative;
@@ -59,6 +59,7 @@
 {
   width: 228px;
   height: 32px;
+
   z-index: 2;
 }
 
@@ -78,8 +79,8 @@
   width: 730px;
   z-index: 3;
 
-  margin: 0;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
+
   display: flex;
   align-items: center;
 
@@ -100,6 +101,11 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
+}
+
+.header__link
+{
+  text-decoration: none;
 }
 
 .header__main-illustration
@@ -146,7 +152,6 @@
 {
   width: 175px;
   height: 100%;
-  margin: 0;
 
   font-size: 18px;
   font-weight: normal;
@@ -158,12 +163,10 @@
 {
   width: 80%;
   min-width: 784px;
-  margin: 0;
 }
 
 .two-columns__paragraph
 {
-  margin: 0;
   padding: 0 0 30px;
 
   font-size: 24px;
@@ -173,6 +176,7 @@
 
 .two-columns__paragraph:last-of-type
 {
+  /* Перезапись */
   padding: 0;
 }
 
@@ -224,8 +228,6 @@
 
 .table-heading
 {
-  margin: 0;
-
   font-size: 24px;
   font-weight: 600;
   line-height: 1.15;
@@ -335,6 +337,7 @@
 .footer
 {
   min-height: 350px;
+  width: 100vw;
   padding: 60px 0 40px;
 }
 
@@ -345,11 +348,11 @@
 
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
 .footer_column
-{
+{  
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -390,26 +393,26 @@
 
 .footer_column-links
 {
-  margin: 0;/* 0 16px;*/
   padding: 0 0 16px;
-  list-style: none;
+
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
 .footer_column-link
 {
   margin: 0 0 10px;
-  padding: 0;
 
   font-size: 18px;
   font-weight: normal;
   line-height: 30px;
+  color: white;
+  text-decoration: none;
 }
 
 .footer_social-icon
 {
-  margin: 0;
-  padding: 0;
-
   width: 16px;
   height: 16px;
 }
