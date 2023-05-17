@@ -1,0 +1,10 @@
+.kaufman
+{
+  /* Перезапись */
+  margin: 0;
+  padding: 90px 0;
+
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
