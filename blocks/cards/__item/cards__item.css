@@ -2,11 +2,11 @@
 {
     width: 240px;
     margin: 0 100px 0 0;
-    padding: 0;    
+    padding: 0;
     box-sizing:border-box;
 
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
 .cards__item:nth-of-type(3n)
