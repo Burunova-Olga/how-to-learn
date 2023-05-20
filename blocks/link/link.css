@@ -4,11 +4,11 @@
 
   opacity: 1.0;
   
-  transition: opacity 0.5s linear;
+ /* transition: opacity 0.5s linear; */
 }
 
 .link:hover
 {
-  opacity: 0;
+  /* opacity: 0; */ 
   color: rebeccapurple;
 }
