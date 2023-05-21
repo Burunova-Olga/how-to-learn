@@ -1,3 +1,5 @@
+@import url(../page/page.css);
+
 .header__title
 {
   max-width: 730px;
@@ -12,4 +14,6 @@
   font-size: 102px;
   font-weight: 600;
   line-height: 96px;
+
+  font-family: "Vassa", "Allods", 'Helvetica Neue', Arial, sans-serif;
 }

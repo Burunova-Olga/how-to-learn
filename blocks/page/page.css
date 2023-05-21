@@ -7,5 +7,21 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Allods", 'Helvetica Neue', Arial, sans-serif;
+}
+
+@font-face
+{
+  font-family: "Allods";
+  src: url("../../fonts/allods.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face
+{
+  font-family: "Vassa";
+  src: url("../../fonts/vassamenikhoffcaps.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
