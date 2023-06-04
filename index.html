@@ -249,6 +249,83 @@
         </a>
       </div>
     </section>
+
+    <section class="section feedback chapter chapter_theme_gray">
+      <form class="form">
+        <div class="form__main-container">
+          <h2 class="section-title">Напишите нам</h2>
+          <fieldset class="form__input-container form__input-container_ctrl_texts">
+            <label for="heading" class="form__label">Заголовок</label>
+            <input type="text" name="heading" class="form__item form__item_el_heading" id="heading" placeholder="О чём статья?" required>
+            <label for="subheading" class="form__label">Подзаголовок</label>
+            <input type="text" name="subheading" class="form__item form__item_el_subheading" id="subheading" placeholder="Краткое описание" required>
+            <label for="main-text" class="form__label">Текст статьи</label>
+            <textarea name="main-text" class="form__item form__item_el_main-text" id="main-text" placeholder="Здесь будет основной текст вашей статьи" required></textarea>
+            <label for="email" class="form__label">E-mail</label>
+            <input type="email" name="email" class="form__item form__item_el_email" id="email" placeholder="hello@example.com">
+          </fieldset>
+          <div class="form__line"></div>
+          <fieldset class="form__input-container form__input-container_ctrl_visual">
+            <label for="font-family" class="form__label">Семейство шрифтов</label>
+            <select name="font-family" class="form__item form__item_el_font-family" id="font-family">
+              <option value="ibm">IBM Plex Serif</option>
+              <option value="ubuntu">Ubuntu</option>
+              <option value="istok">Istok Web</option>
+            </select>
+            <label for="heading-font-size" class="form__label">Размер текста заголовка</label>
+            <input type="number" name="heading-font-size" min="24" max="80" class="form__item form__item_el_heading-fontsize" id="heading-font-size" value="32">
+            <label for="text-font-size" class="form__label">Размер текста абзаца</label>
+            <input type="number" name="text-font-size" min="12" max="40" class="form__item form__item_el_text-fontsize" id="text-font-size" value="24">
+            <label for="pub-date" class="form__label">Дата создания статьи</label>
+            <input type="date" name="pub-date" class="form__item form__item_el_pubdate" id="pub-date">
+            <label for="image" class="form__label">Обложка статьи</label>
+            <select name="image" class="form__item form__item_el_image" id="image">
+              <option value="bombardier">Bombardier CS300</option>
+              <option value="hobbit">Боинг-777 Хоббит</option>
+              <option value="tiger">Тигролёт</option>
+              <option value="connected">Connected to 01000010 01001100 01010101 01000101</option>
+            </select>
+          </fieldset>
+          <fieldset class="form__input-container form__input-container_ctrl_additional">
+            <h3 class="form__heading form__heading_type_ctrl-el-heading">Количество колонок</h3>
+
+            <label class="form__label form__label_direction_right" for="one-column">
+              <input type="radio" name="number-of-columns" value="one-column" id="one-column" class="form__item form__item_el_number-of-columns" checked>
+              <span class="form__pseudo-item form__pseudo-item_type_radio"></span>
+              <span class="form__label-text">1</span>
+            </label>
+
+            <label class="form__label form__label_direction_right" for="two-columns">
+              <input type="radio" name="number-of-columns" value="two-columns" id="two-columns" class="form__item form__item_el_number-of-columns">
+              <span class="form__pseudo-item form__pseudo-item_type_radio"></span>
+              <span class="form__label-text">2</span>
+            </label>
+
+            <label for="text-color" class="form__label">Цвет текста</label>
+            <input type="color" name="text-color" class="form__item form__item_el_text-color" id="text-color" value="#979797">
+
+            <label for="content-width" class="form__label">Ширина контента</label>
+            <input type="range" name="content-width" min="30" max="80" step="10" class="form__item form__item_el_content-width" id="content-width">
+
+            <h3 class="form__heading form__heading_type_ctrl-el-heading">Дополнительные параметры</h3>
+            <label class="form__label form__label_direction_right" for="black-background">
+              <input type="checkbox" name="extra-option" class="form__item form__item_el_extra-options" id="black-background" value="black-background">
+              <span class="form__pseudo-item form__pseudo-item_type_checkbox"></span>
+              <span class="form__label-text">Чёрный фон</span>
+            </label>
+            <br>
+            <label class="form__label form__label_direction_right" for="bold-heading">
+              <input type="checkbox" name="extra-option" class="form__item form__item_el_extra-options" id="bold-heading" value="bold-heading" checked>
+              <span class="form__pseudo-item form__pseudo-item_type_checkbox"></span>
+              <span class="form__label-text">Жирный заголовок</span>
+            </label>
+          </fieldset>
+        </div>
+        <fieldset class="form__handlers">
+            <input type="submit" class="form__button">
+        </fieldset>
+      </form>
+    </section>
   </main>
 
   <footer class="footer chapter chapter_theme_dark">

@@ -83,6 +83,10 @@
 @import url(../blocks/resources/__logo/resources__logo.css);
 @import url(../blocks/resources/__link/resources__link.css);
 
+/* Feedback */
+@import url(../blocks/form/form.css);
+
+/* Footer */
 @import url(../blocks/logo/_place/logo_place_footer.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
